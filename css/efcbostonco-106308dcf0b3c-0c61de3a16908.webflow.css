@@ -238,6 +238,12 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: #fdffcf;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.8)), to(hsla(0, 0%, 100%, 0.8))), -webkit-gradient(linear, left top, left bottom, from(rgba(253, 255, 207, 0.88)), to(rgba(253, 255, 207, 0.88))), url('../images/1_2.JPG');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0.8)), linear-gradient(180deg, rgba(253, 255, 207, 0.88), rgba(253, 255, 207, 0.88)), url('../images/1_2.JPG');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  background-attachment: scroll, scroll, fixed;
 }
 
 .body.contact {
@@ -426,7 +432,7 @@ body {
 
 .page-text.portfolio.top {
   padding-bottom: 0px;
-  background-color: #fdffcf;
+  background-color: transparent;
 }
 
 .page-text.project-portfolio-description {
@@ -441,6 +447,7 @@ body {
 }
 
 .page-text.project-portfolio-description.bottom.gjjh {
+  max-width: 900px;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -459,7 +466,7 @@ body {
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
-  padding: 40px 5vw 20px;
+  padding: 40px 5vw 15px;
   float: none;
 }
 
@@ -595,7 +602,7 @@ body {
   margin-bottom: 60px;
   padding-right: 3.75vw;
   padding-left: 3.75vw;
-  background-color: #fdffcf;
+  background-color: transparent;
 }
 
 .div-block-3.homepage {
@@ -712,8 +719,8 @@ body {
 }
 
 .slider {
-  height: 80vh;
-  max-width: 1400px;
+  height: 75vh;
+  max-width: 1182.81px;
   margin-right: auto;
   margin-left: auto;
   float: none;
@@ -742,6 +749,7 @@ body {
   display: flex;
   width: 100%;
   height: 50vh;
+  min-width: 1182.81px;
   margin-right: auto;
   margin-left: auto;
   float: right;
@@ -1396,7 +1404,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 80vh;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1519,6 +1527,12 @@ body {
 .image-2.g {
   margin-top: 0px;
   padding-bottom: 0px;
+}
+
+.div-block-14 {
+  max-width: 1182.81px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 991px) {
