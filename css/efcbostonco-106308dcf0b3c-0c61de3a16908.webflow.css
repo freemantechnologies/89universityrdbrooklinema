@@ -431,7 +431,13 @@ body {
 }
 
 .page-text.portfolio.top {
-  padding-bottom: 0px;
+  width: 70%;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0vw;
+  padding-bottom: 50px;
+  padding-left: 0vw;
   background-color: transparent;
 }
 
@@ -451,9 +457,7 @@ body {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-  padding-top: 0px;
-  padding-right: 0vw;
-  padding-left: 0vw;
+  padding: 0px 0vw;
   float: none;
   text-align: left;
 }
@@ -776,7 +780,12 @@ body {
   max-width: 1182.81px;
   min-width: auto;
   margin-top: 0px;
+  box-shadow: 1px 1px 3px 0 #8d8d8d;
   opacity: 0.95;
+}
+
+.html-embed.yhgf {
+  min-width: auto;
 }
 
 .div-block-9 {
@@ -1421,6 +1430,14 @@ body {
   align-items: center;
 }
 
+.div-block-13.f.utility-page-wrap.gh {
+  width: 1182.81px;
+  height: auto;
+  max-height: none;
+  max-width: 100%;
+  min-width: auto;
+}
+
 .bbb {
   display: none;
 }
@@ -1530,8 +1547,11 @@ body {
 }
 
 .image-2.g {
+  overflow: scroll;
+  max-width: none;
   margin-top: 0px;
   padding-bottom: 0px;
+  box-shadow: 1px 1px 3px 0 #8d8d8d;
 }
 
 .div-block-14 {
@@ -1587,8 +1607,9 @@ body {
   }
 
   .page-text.portfolio.top {
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 0vw;
+    padding-bottom: 20px;
+    padding-left: 0vw;
   }
 
   .page-text.project-portfolio-description.bottom.gjjh {
@@ -1597,10 +1618,11 @@ body {
   }
 
   .page-text.project-portfolio-description.pt {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 
   .text-span.header-text {
+    font-size: 29px;
     line-height: 45px;
   }
 
@@ -1647,6 +1669,17 @@ body {
 
   .div-block-11.mobile {
     width: 27.5vw;
+  }
+
+  .div-block-13.f.utility-page-wrap.gh {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    max-width: none;
+  }
+
+  .image-2.g {
+    max-width: 100%;
   }
 }
 
@@ -1716,6 +1749,11 @@ body {
     font-size: 3.3vw;
   }
 
+  .page-text.portfolio.top {
+    width: auto;
+    padding-bottom: 5px;
+  }
+
   .page-text.project-portfolio-description {
     width: auto;
     float: none;
@@ -1746,7 +1784,7 @@ body {
   }
 
   .page-text.project-portfolio-description.pt {
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 20px;
   }
 
@@ -1773,6 +1811,7 @@ body {
   }
 
   .text-span.header-text {
+    font-size: 25px;
     line-height: 45px;
   }
 
@@ -1782,6 +1821,7 @@ body {
   }
 
   .div-block-3.property-description {
+    margin-top: 0px;
     margin-bottom: 60px;
   }
 
@@ -1801,7 +1841,7 @@ body {
   }
 
   .div-block-8.portf.f.dvbh {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   .html-embed {
@@ -1846,6 +1886,7 @@ body {
     height: auto;
     max-height: none;
     max-width: none;
+    margin-bottom: 0px;
   }
 
   .bbb {
@@ -1987,14 +2028,14 @@ body {
   }
 
   .page-text.portfolio.top {
-    padding-right: 10vw;
+    padding-right: 0vw;
     padding-bottom: 0px;
-    padding-left: 10vw;
+    padding-left: 0vw;
   }
 
   .page-text.project-portfolio-description.bottom.gjjh {
     margin-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 15px;
     padding-bottom: 0px;
     line-height: 18px;
   }
@@ -2004,12 +2045,12 @@ body {
   }
 
   .page-text.project-portfolio-description.pt {
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 20px;
   }
 
   .page-text.project-portfolio-description.pt.bvbn {
-    padding-top: 70px;
+    padding-top: 0px;
   }
 
   .page-text.project-portfolio-description.pt.fbnm {
