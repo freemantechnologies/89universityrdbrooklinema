@@ -237,7 +237,7 @@ body {
 .body.port-page {
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #fdffcf;
+  background-color: transparent;
   background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.8)), to(hsla(0, 0%, 100%, 0.8))), -webkit-gradient(linear, left top, left bottom, from(rgba(253, 255, 207, 0.88)), to(rgba(253, 255, 207, 0.88))), url('../images/1_2.JPG');
   background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0.8)), linear-gradient(180deg, rgba(253, 255, 207, 0.88), rgba(253, 255, 207, 0.88)), url('../images/1_2.JPG');
   background-position: 0px 0px, 0px 0px, 50% 50%;
@@ -505,7 +505,7 @@ body {
 }
 
 .text-span.header-text {
-  line-height: 35px;
+  line-height: 45px;
 }
 
 .text-span.header-text.home {
@@ -739,6 +739,7 @@ body {
 }
 
 .div-block-8.portf.f.dvbh {
+  margin-top: 75px;
   background-color: hsla(0, 0%, 100%, 0);
 }
 
@@ -771,6 +772,10 @@ body {
 }
 
 .html-embed.fgn.gg {
+  width: 100%;
+  max-width: 1182.81px;
+  min-width: auto;
+  margin-top: 0px;
   opacity: 0.95;
 }
 
@@ -1552,6 +1557,7 @@ body {
 
   .body.port-page {
     min-width: 100%;
+    background-color: transparent;
   }
 
   .nav-menu.portfolio {
@@ -1591,7 +1597,11 @@ body {
   }
 
   .page-text.project-portfolio-description.pt {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+  }
+
+  .text-span.header-text {
+    line-height: 45px;
   }
 
   .grid {
@@ -1616,6 +1626,19 @@ body {
 
   .div-block-7 {
     background-position: 50% 0%;
+  }
+
+  .html-embed {
+    height: 40vh;
+    max-width: 1182.81px;
+    min-width: auto;
+  }
+
+  .html-embed.fgn.gg {
+    width: 100%;
+    height: 40vh;
+    max-width: 1182.81px;
+    min-width: auto;
   }
 
   .div-block-9.portfoliopage {
@@ -1659,6 +1682,10 @@ body {
 
   .navbar.actual-nav.text-on-nav.home.mobilebottom {
     bottom: 20vh;
+  }
+
+  .body.port-page {
+    background-color: transparent;
   }
 
   .nav-menu.portfolio {
@@ -1719,8 +1746,8 @@ body {
   }
 
   .page-text.project-portfolio-description.pt {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
 
   .page-text.project-portfolio-description.pt.fgchvb.bnm {
@@ -1733,7 +1760,20 @@ body {
   }
 
   .page-text.project-portfolio-description.pt.fbnm {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+  }
+
+  .page-text.project-portfolio-description.pt.vb {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .page-text.project-portfolio-description.pt.vb.gg {
+    padding-top: 10px;
+  }
+
+  .text-span.header-text {
+    line-height: 45px;
   }
 
   .text-span.header-text.home {
@@ -1760,9 +1800,20 @@ body {
     height: 80vh;
   }
 
+  .div-block-8.portf.f.dvbh {
+    margin-top: 60px;
+  }
+
   .html-embed {
     width: 100%;
+    height: 30vh;
+    max-width: 1182.81px;
+    min-width: auto;
     float: none;
+  }
+
+  .html-embed.fgn.gg {
+    height: 30vh;
   }
 
   .slide.b._3 {
@@ -1789,6 +1840,12 @@ body {
 
   .div-block-13 {
     width: 100%;
+  }
+
+  .div-block-13.f.utility-page-wrap.gh {
+    height: auto;
+    max-height: none;
+    max-width: none;
   }
 
   .bbb {
@@ -1855,6 +1912,7 @@ body {
   .body.port-page {
     margin-top: 0px;
     margin-bottom: 0px;
+    background-color: transparent;
   }
 
   .nav-menu {
@@ -1930,7 +1988,7 @@ body {
 
   .page-text.portfolio.top {
     padding-right: 10vw;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-left: 10vw;
   }
 
@@ -1946,6 +2004,7 @@ body {
   }
 
   .page-text.project-portfolio-description.pt {
+    padding-top: 40px;
     padding-bottom: 20px;
   }
 
@@ -1954,7 +2013,15 @@ body {
   }
 
   .page-text.project-portfolio-description.pt.fbnm {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
+  }
+
+  .page-text.project-portfolio-description.pt.vb {
+    padding-top: 20px;
+  }
+
+  .page-text.project-portfolio-description.pt.vb.gg.fghxj5 {
+    padding-top: 20px;
   }
 
   .page-text.contactpage {
@@ -1967,8 +2034,8 @@ body {
   }
 
   .text-span.header-text {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .text-span.header-text.home {
@@ -1992,6 +2059,7 @@ body {
 
   .div-block-3.property-description {
     max-width: 800px;
+    margin-top: 0px;
     margin-bottom: 20px;
   }
 
@@ -2025,18 +2093,25 @@ body {
   }
 
   .div-block-8.portf.f.dvbh {
+    margin-top: 40px;
     padding-bottom: 0px;
   }
 
   .html-embed {
     height: 40vh;
-    margin-bottom: 30px;
+    max-width: 1182.81px;
+    min-width: auto;
+    margin-bottom: 0px;
     padding-bottom: 0px;
     opacity: 0.85;
   }
 
   .html-embed.fgn {
     opacity: 1;
+  }
+
+  .html-embed.fgn.gg {
+    height: 30vh;
   }
 
   .div-block-9.portfoliopage {
@@ -2128,6 +2203,15 @@ body {
     height: auto;
   }
 
+  .div-block-13.f.utility-page-wrap {
+    margin-bottom: 40px;
+  }
+
+  .div-block-13.f.utility-page-wrap.gh {
+    max-height: none;
+    max-width: none;
+  }
+
   .bbb {
     height: 50vh;
   }
@@ -2141,7 +2225,9 @@ body {
   }
 
   .image-2.g {
+    width: 100%;
     height: auto;
+    max-width: none;
   }
 }
 
